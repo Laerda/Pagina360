@@ -1,0 +1,205 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/>
+	<style type="text/css">
+	</style> 
+	<!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+     
+	    <img src="imagenes/Logo360.png" alt="" width="270" height="290">
+      </div>
+
+		
+		
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad-----><a href="#secc1">GO EUROPA&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="#secc2">GO ASIA</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#secc3">GO AMERICA</a> <a href="#secc4"></a></div>
+
+		
+		
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+<main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			<h1><strong><strong>VIAJE VIRTUAL A MUSEOS Y MONUMENTOS EN 360º </strong></strong></h1>
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+    			<blockquote>
+    			  <p><strong>Un viaje 360º minucioso por los sitios más iconicos e importates del mundo, admire vestigios arqueológicos más asombrosos sin salir de casa.</strong></p>
+    			</blockquote>
+    			<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/360.png" width="150" height="300" title="Img 1a">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p></p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p></p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1b.png" title="Img 1b">
+	        		<!--texto para la imagen-->
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+   		  <div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+    			<h1>Trasladate de un lugar a otra.</h1>
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+            <p>Viajar a golpe de clic puede parecer una paradoja. Sin embargo, sin trasladarse de un lugar a otro es posible recorrer el mundo, e incluso visitar ciudades y monumentos como se haría in situ, callejeando y con una visión panorámica del destino. Desde ciudades enteras hasta enclaves arqueológicos, este es un viaje que, a parte de serlo en el espacio, también lo es en el tiempo.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>&nbsp;</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+				<a href="360visualizar.html">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->       		  <img  src="imagenes/Captura de Pantalla 2023-02-19 a la(s) 18.16.54.png" title="Img 2">
+				<a></a>
+        		<!--texto para la imagen-->
+       		  <p></p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+   			  <h1>Visita el museo de Louvre</h1>
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+    			<p>Inaugurado a finales del siglo XVIII, el Museo del Louvre es el museo más importante de Francia y uno de los más visitados del mundo. Actualmente recibe más de ocho millones de visitantes cada año.</p>
+    			<p>&nbsp;</p>
+    			<p>Formado a partir de las colecciones de la monarquía francesa y las expoliaciones realizadas durante el imperio Napoleónico, el Museo del Louvre abrió sus puertas en 1793 mostrando un nuevo modelo de museo, que pasaba de las manos de las clases dirigentes al disfrute del público general.</p>
+    			<br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+       		  <img  src="imagenes/Captura de Pantalla 2023-02-19 a la(s) 18.18.22.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+          <h1><span style="text-align: center"></span><span style="font-weight: 100"></span><span style="font-weight: 800"></span><span style="font-style: italic; color: #010101; font-size: 12px;"></span><strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Visita la estatua de la libertad </strong><span style="font-size: 10px"></span><span style="font-size: 24px"></span></h1>
+La Estatua de la Libertad fue un regalo de Francia a Estados Unidos por el centenario de su independencia el 4 de julio de 1776.  El escultor francés Frédéric Auguste Bartholdi fue el encargado de otorgar al país americano la que sería su estatua más conocida del mundo, no hay que olvidar que uno de los padres de otro de los monumentos más famosos del mundo, Gustave Eiffel, responsable de la Torre Eiffel en París, fue en parte <strong>quien construyó la Estatua de la Libertad</strong>, o al menos la estructura interna.	      Inaugurado a finales del siglo XVIII, el Museo del Louvre es el museo más importante de Francia y uno de los más visitados del mundo. Actualmente recibe más de ocho millones de visitantes cada año.	      <!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<!--texto para la imagen-->
+        		<p>&nbsp;</p>
+   		  </div>
+
+  </div>
+
+    </main>
+<div>
+      <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+      <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+      <p>&nbsp;</p>
+      <br>
+      <!--etiqueta para un brinco de renglón-->
+      <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+      <br>
+      <!--etiqueta para un brinco de renglón-->
+    </div>
+    <img src="imagenes/vista-panorámica-de-las-grandes-pirámides-egipcias-en-giza-egipto-215617972.jpg" width="1600" height="593" alt=""/>
+    <div></div>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">todos los derechos a sus respectivos autores</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
